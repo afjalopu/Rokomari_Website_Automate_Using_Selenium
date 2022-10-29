@@ -1,0 +1,290 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>42/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 22 07:18:31 BDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>499 seconds (499909 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.HomePageTest.GmailClick()'><b>GmailClick</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>10</td>
+<td>tests.HomePageTest@30c15d8b</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ThirdBookHover()'><b>ThirdBookHover</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>11</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.NameGiven()'><b>NameGiven</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.AddToCartTest.FirstBookInAddToCart()'><b>FirstBookInAddToCart</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>7</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ClickOnCrossButton()'><b>ClickOnCrossButton</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>20</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ClickOnPaceOrderButton()'><b>ClickOnPaceOrderButton</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>20</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.AddToCartTest.FirstBookHover()'><b>FirstBookHover</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>9</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.PhoneNumberGiven()'><b>PhoneNumberGiven</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>8</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ConfirmRemoveElementByYes()'><b>ConfirmRemoveElementByYes</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>18</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.ZoneDropDown()'><b>ZoneDropDown</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>13</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.GmailSignInTest.ClickOnPasswordNextButton()'><b>ClickOnPasswordNextButton</b><br>Test class: tests.GmailSignInTest</td>
+<td></td>
+<td>13</td>
+<td>tests.GmailSignInTest@13c9d689</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.ClickOnAgamiProkashoniCheckBox()'><b>ClickOnAgamiProkashoniCheckBox</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>9</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.PublishersDivScroll()'><b>PublishersDivScroll</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>7</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.Book_CatagoriesDivScroll()'><b>Book_CatagoriesDivScroll</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>7</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.BestSellerFilterClick()'><b>BestSellerFilterClick</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>10</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.GmailSignInTest.ClickOnUserNameNextButton()'><b>ClickOnUserNameNextButton</b><br>Test class: tests.GmailSignInTest</td>
+<td></td>
+<td>7</td>
+<td>tests.GmailSignInTest@13c9d689</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.Writer()'><b>Writer</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>7</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.RochonaSongkolonCheckBoxClick()'><b>RochonaSongkolonCheckBoxClick</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>13</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ClickOnCartIcon()'><b>ClickOnCartIcon</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>23</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.ClickOnNazrulCheckBox()'><b>ClickOnNazrulCheckBox</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>9</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.ClickOnBanglaCheckBox()'><b>ClickOnBanglaCheckBox</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>9</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ThirdBookViewDetails()'><b>ThirdBookViewDetails</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>26</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.WriterSelected()'><b>WriterSelected</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>10</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.BanglaLanguageDivScroll()'><b>BanglaLanguageDivScroll</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>7</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.AddToCartTest.PublishersDivScroll()'><b>PublishersDivScroll</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>7</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.GmailSignInTest.GmailUserName()'><b>GmailUserName</b><br>Test class: tests.GmailSignInTest</td>
+<td></td>
+<td>7</td>
+<td>tests.GmailSignInTest@13c9d689</td></tr>
+<tr>
+<td title='tests.HomePageTest.clickOnSignUP()'><b>clickOnSignUP</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>3</td>
+<td>tests.HomePageTest@30c15d8b</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.AlterNativePhoneNum()'><b>AlterNativePhoneNum</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>7</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.ClickOnMawlanaBrothersCheckBox()'><b>ClickOnMawlanaBrothersCheckBox</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>9</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.AddToCartTest.RemoveFirstElement()'><b>RemoveFirstElement</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>15</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.NagadCheckBox()'><b>NagadCheckBox</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>5</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.AddressInputField()'><b>AddressInputField</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>9</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.AddToCartTest.SecondBookHover()'><b>SecondBookHover</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>9</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.AddToCartTest.SecondBookInAddToCart()'><b>SecondBookInAddToCart</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>7</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.HomePageTest.ClickOnSignIn()'><b>ClickOnSignIn</b><br>Test class: tests.HomePageTest</td>
+<td></td>
+<td>17</td>
+<td>tests.HomePageTest@30c15d8b</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.BanglaKobitaCheckBoxClick()'><b>BanglaKobitaCheckBoxClick</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>10</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.WriterAndBookFilterTest.ClickOnFiveStarRating()'><b>ClickOnFiveStarRating</b><br>Test class: tests.WriterAndBookFilterTest</td>
+<td></td>
+<td>9</td>
+<td>tests.WriterAndBookFilterTest@3754a4bf</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.CountryAndAreaDropDown()'><b>CountryAndAreaDropDown</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>24</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.AddToCartTest.ThirdBookAddToCartClick()'><b>ThirdBookAddToCartClick</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>20</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.ShippingInfoPageTest.ConfirmOrderButton()'><b>ConfirmOrderButton</b><br>Test class: tests.ShippingInfoPageTest</td>
+<td></td>
+<td>6</td>
+<td>tests.ShippingInfoPageTest@4afcd809</td></tr>
+<tr>
+<td title='tests.AddToCartTest.SelectBookDivScroll()'><b>SelectBookDivScroll</b><br>Test class: tests.AddToCartTest</td>
+<td></td>
+<td>7</td>
+<td>tests.AddToCartTest@62379589</td></tr>
+<tr>
+<td title='tests.GmailSignInTest.GmailPassword()'><b>GmailPassword</b><br>Test class: tests.GmailSignInTest</td>
+<td></td>
+<td>5</td>
+<td>tests.GmailSignInTest@13c9d689</td></tr>
+</table><p>
+</body>
+</html>

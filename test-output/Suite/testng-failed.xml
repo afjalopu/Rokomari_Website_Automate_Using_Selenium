@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.AddToCartTest">
+        <methods>
+          <include name="ClickOnPaceOrderButton"/>
+          <include name="ThirdBookAddToCartClick"/>
+          <include name="Parent"/>
+          <include name="close"/>
+          <include name="start"/>
+          <include name="RemoveFirstElement"/>
+          <include name="ClickOnCartIcon"/>
+          <include name="ConfirmRemoveElementByYes"/>
+          <include name="afterClass"/>
+          <include name="ClickOnCrossButton"/>
+        </methods>
+      </class> <!-- tests.AddToCartTest -->
+      <class name="tests.ShippingInfoPageTest">
+        <methods>
+          <include name="AddressInputField"/>
+          <include name="NagadCheckBox"/>
+          <include name="close"/>
+          <include name="AlterNativePhoneNum"/>
+          <include name="start"/>
+          <include name="PhoneNumberGiven"/>
+          <include name="afterClass"/>
+          <include name="CountryAndAreaDropDown"/>
+          <include name="ConfirmOrderButton"/>
+          <include name="ZoneDropDown"/>
+          <include name="NameGiven"/>
+          <include name="Parent"/>
+        </methods>
+      </class> <!-- tests.ShippingInfoPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
