@@ -44,8 +44,8 @@ public class AddToCartPage extends CommonMethods {
 	@FindBy(xpath = "//div[@title=\"জিঞ্জীর কাজী নজরুল ইসলাম\"]//a[contains(text(),'View Details')]")
 	public WebElement ThirdBookViewDetails;
 
-	@FindBy(xpath = "(//div[@class=\"filter__content\"])[3]")
-	public WebElement ThirdBookPriceDivScroll;
+	@FindBy(xpath = "(//div[@class=\"col-4 col-xl-3\"])[13]")
+	public WebElement ThirdBookDivScroll;
 
 	@FindBy(xpath = "//div[@title=\"জিঞ্জীর কাজী নজরুল ইসলাম\"]")
 	public WebElement ThirdBookHover;
@@ -242,7 +242,7 @@ public class AddToCartPage extends CommonMethods {
 		test.info("Third Book Hover");
 		try {
 			if (ThirdBookHover.isDisplayed()) {
-				scrollToElement(ThirdBookPriceDivScroll);
+				scrollToElement(PublishersDiv);
 				timeOut(2000);
 				hover(ThirdBookHover);
 				timeOut(2000);
@@ -273,6 +273,12 @@ public class AddToCartPage extends CommonMethods {
 		test.info("Third Book View Details");
 		try {
 			if (ThirdBookViewDetails.isDisplayed()) {
+				scrollToElement(ThirdBookDivScroll);
+				timeOut(2000);
+
+				hover(ThirdBookHover);
+				timeOut(2000);
+
 				ThirdBookViewDetails.click();
 				timeOut(5000);
 				test.pass("<p style=\"color:green; font-size:13px\"><b>Order Third View Details Success</b></p>");

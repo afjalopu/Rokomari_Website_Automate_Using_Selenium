@@ -2,232 +2,232 @@
 <testng-results ignored="8" total="50" passed="42" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-22T07:18:31 BDT" name="Suite" finished-at="2022-10-22T07:26:51 BDT" duration-ms="499909">
+  <suite started-at="2022-11-11T21:57:14 BDT" name="Suite" finished-at="2022-11-11T22:06:01 BDT" duration-ms="526661">
     <groups>
     </groups>
-    <test started-at="2022-10-22T07:18:31 BDT" name="Test" finished-at="2022-10-22T07:26:51 BDT" duration-ms="499909">
+    <test started-at="2022-11-11T21:57:14 BDT" name="Test" finished-at="2022-11-11T22:06:01 BDT" duration-ms="526661">
       <class name="tests.ShippingInfoPageTest">
-        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:25:28 BDT" name="Parent" finished-at="2022-10-22T07:25:28 BDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:04:35 BDT" name="Parent" finished-at="2022-11-11T22:04:35 BDT" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Parent -->
-        <test-method signature="NameGiven()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:25:28 BDT" name="NameGiven" finished-at="2022-10-22T07:25:35 BDT" duration-ms="7596" status="PASS">
+        <test-method signature="NameGiven()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:04:35 BDT" name="NameGiven" finished-at="2022-11-11T22:04:43 BDT" duration-ms="7921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NameGiven -->
-        <test-method signature="PhoneNumberGiven()[pri:1, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:25:35 BDT" name="PhoneNumberGiven" finished-at="2022-10-22T07:25:44 BDT" duration-ms="8604" status="PASS">
+        <test-method signature="PhoneNumberGiven()[pri:1, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:04:43 BDT" name="PhoneNumberGiven" finished-at="2022-11-11T22:04:51 BDT" duration-ms="8032" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PhoneNumberGiven -->
-        <test-method signature="AlterNativePhoneNum()[pri:2, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:25:44 BDT" name="AlterNativePhoneNum" finished-at="2022-10-22T07:25:52 BDT" duration-ms="7573" status="PASS">
+        <test-method signature="AlterNativePhoneNum()[pri:2, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:04:51 BDT" name="AlterNativePhoneNum" finished-at="2022-11-11T22:04:59 BDT" duration-ms="7953" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AlterNativePhoneNum -->
-        <test-method signature="CountryAndAreaDropDown()[pri:3, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:25:52 BDT" name="CountryAndAreaDropDown" finished-at="2022-10-22T07:26:16 BDT" duration-ms="24344" status="PASS">
+        <test-method signature="CountryAndAreaDropDown()[pri:3, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:04:59 BDT" name="CountryAndAreaDropDown" finished-at="2022-11-11T22:05:24 BDT" duration-ms="24732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CountryAndAreaDropDown -->
-        <test-method signature="ZoneDropDown()[pri:4, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:26:16 BDT" name="ZoneDropDown" finished-at="2022-10-22T07:26:30 BDT" duration-ms="13658" status="PASS">
+        <test-method signature="ZoneDropDown()[pri:4, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:05:24 BDT" name="ZoneDropDown" finished-at="2022-11-11T22:05:38 BDT" duration-ms="13857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ZoneDropDown -->
-        <test-method signature="AddressInputField()[pri:5, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:26:30 BDT" name="AddressInputField" finished-at="2022-10-22T07:26:39 BDT" duration-ms="9722" status="PASS">
+        <test-method signature="AddressInputField()[pri:5, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:05:38 BDT" name="AddressInputField" finished-at="2022-11-11T22:05:48 BDT" duration-ms="10148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddressInputField -->
-        <test-method signature="NagadCheckBox()[pri:6, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:26:39 BDT" name="NagadCheckBox" finished-at="2022-10-22T07:26:44 BDT" duration-ms="5079" status="PASS">
+        <test-method signature="NagadCheckBox()[pri:6, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:05:48 BDT" name="NagadCheckBox" finished-at="2022-11-11T22:05:53 BDT" duration-ms="5078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NagadCheckBox -->
-        <test-method signature="ConfirmOrderButton()[pri:7, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:26:44 BDT" name="ConfirmOrderButton" finished-at="2022-10-22T07:26:51 BDT" duration-ms="6402" status="PASS">
+        <test-method signature="ConfirmOrderButton()[pri:7, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:05:53 BDT" name="ConfirmOrderButton" finished-at="2022-11-11T22:06:00 BDT" duration-ms="6528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmOrderButton -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-10-22T07:26:51 BDT" name="afterClass" finished-at="2022-10-22T07:26:51 BDT" duration-ms="494" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.ShippingInfoPageTest@4afcd809]" started-at="2022-11-11T22:06:00 BDT" name="afterClass" finished-at="2022-11-11T22:06:01 BDT" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.ShippingInfoPageTest -->
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="start()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:18:19 BDT" name="start" finished-at="2022-10-22T07:18:31 BDT" duration-ms="12022" status="PASS">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:06 BDT" name="start" finished-at="2022-11-11T21:57:14 BDT" duration-ms="7691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- start -->
-        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:18:31 BDT" name="Parent" finished-at="2022-10-22T07:18:51 BDT" duration-ms="19272" status="PASS">
+        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:14 BDT" name="Parent" finished-at="2022-11-11T21:57:25 BDT" duration-ms="10792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Parent -->
-        <test-method signature="ClickOnSignIn()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:18:51 BDT" name="ClickOnSignIn" finished-at="2022-10-22T07:19:08 BDT" duration-ms="17182" status="PASS">
+        <test-method signature="ClickOnSignIn()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:25 BDT" name="ClickOnSignIn" finished-at="2022-11-11T21:57:40 BDT" duration-ms="14565" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnSignIn -->
-        <test-method signature="clickOnSignUP()[pri:1, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:19:08 BDT" name="clickOnSignUP" finished-at="2022-10-22T07:19:12 BDT" duration-ms="3527" status="PASS">
+        <test-method signature="clickOnSignUP()[pri:1, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:40 BDT" name="clickOnSignUP" finished-at="2022-11-11T21:57:43 BDT" duration-ms="3776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnSignUP -->
-        <test-method signature="GmailClick()[pri:2, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:19:12 BDT" name="GmailClick" finished-at="2022-10-22T07:19:23 BDT" duration-ms="10868" status="PASS">
+        <test-method signature="GmailClick()[pri:2, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:43 BDT" name="GmailClick" finished-at="2022-11-11T21:57:52 BDT" duration-ms="8622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GmailClick -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:19:23 BDT" name="afterClass" finished-at="2022-10-22T07:19:24 BDT" duration-ms="716" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T21:57:52 BDT" name="afterClass" finished-at="2022-11-11T21:57:54 BDT" duration-ms="1880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-10-22T07:26:51 BDT" name="close" finished-at="2022-10-22T07:26:53 BDT" duration-ms="1190" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.HomePageTest@30c15d8b]" started-at="2022-11-11T22:06:01 BDT" name="close" finished-at="2022-11-11T22:06:02 BDT" duration-ms="1294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.AddToCartTest">
-        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:01 BDT" name="Parent" finished-at="2022-10-22T07:22:01 BDT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:01 BDT" name="Parent" finished-at="2022-11-11T22:01:01 BDT" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Parent -->
-        <test-method signature="SelectBookDivScroll()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:01 BDT" name="SelectBookDivScroll" finished-at="2022-10-22T07:22:09 BDT" duration-ms="7430" status="PASS">
+        <test-method signature="SelectBookDivScroll()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:01 BDT" name="SelectBookDivScroll" finished-at="2022-11-11T22:01:08 BDT" duration-ms="7614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectBookDivScroll -->
-        <test-method signature="FirstBookHover()[pri:1, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:09 BDT" name="FirstBookHover" finished-at="2022-10-22T07:22:18 BDT" duration-ms="9572" status="PASS">
+        <test-method signature="FirstBookHover()[pri:1, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:08 BDT" name="FirstBookHover" finished-at="2022-11-11T22:01:18 BDT" duration-ms="9765" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstBookHover -->
-        <test-method signature="FirstBookInAddToCart()[pri:2, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:18 BDT" name="FirstBookInAddToCart" finished-at="2022-10-22T07:22:26 BDT" duration-ms="7531" status="PASS">
+        <test-method signature="FirstBookInAddToCart()[pri:2, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:18 BDT" name="FirstBookInAddToCart" finished-at="2022-11-11T22:01:26 BDT" duration-ms="7762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FirstBookInAddToCart -->
-        <test-method signature="SecondBookHover()[pri:3, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:26 BDT" name="SecondBookHover" finished-at="2022-10-22T07:22:36 BDT" duration-ms="9615" status="PASS">
+        <test-method signature="SecondBookHover()[pri:3, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:26 BDT" name="SecondBookHover" finished-at="2022-11-11T22:01:36 BDT" duration-ms="9755" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondBookHover -->
-        <test-method signature="SecondBookInAddToCart()[pri:4, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:36 BDT" name="SecondBookInAddToCart" finished-at="2022-10-22T07:22:43 BDT" duration-ms="7609" status="PASS">
+        <test-method signature="SecondBookInAddToCart()[pri:4, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:36 BDT" name="SecondBookInAddToCart" finished-at="2022-11-11T22:01:44 BDT" duration-ms="7813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SecondBookInAddToCart -->
-        <test-method signature="PublishersDivScroll()[pri:5, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:43 BDT" name="PublishersDivScroll" finished-at="2022-10-22T07:22:51 BDT" duration-ms="7426" status="PASS">
+        <test-method signature="PublishersDivScroll()[pri:5, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:44 BDT" name="PublishersDivScroll" finished-at="2022-11-11T22:01:51 BDT" duration-ms="7483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PublishersDivScroll -->
-        <test-method signature="ThirdBookHover()[pri:6, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:22:51 BDT" name="ThirdBookHover" finished-at="2022-10-22T07:23:02 BDT" duration-ms="11479" status="PASS">
+        <test-method signature="ThirdBookHover()[pri:6, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:01:51 BDT" name="ThirdBookHover" finished-at="2022-11-11T22:02:03 BDT" duration-ms="11637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ThirdBookHover -->
-        <test-method signature="ThirdBookViewDetails()[pri:7, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:23:02 BDT" name="ThirdBookViewDetails" finished-at="2022-10-22T07:23:28 BDT" duration-ms="26297" status="PASS">
+        <test-method signature="ThirdBookViewDetails()[pri:7, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:02:03 BDT" name="ThirdBookViewDetails" finished-at="2022-11-11T22:02:34 BDT" duration-ms="31507" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ThirdBookViewDetails -->
-        <test-method signature="ThirdBookAddToCartClick()[pri:8, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:23:28 BDT" name="ThirdBookAddToCartClick" finished-at="2022-10-22T07:23:49 BDT" duration-ms="20702" status="PASS">
+        <test-method signature="ThirdBookAddToCartClick()[pri:8, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:02:34 BDT" name="ThirdBookAddToCartClick" finished-at="2022-11-11T22:02:55 BDT" duration-ms="21011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ThirdBookAddToCartClick -->
-        <test-method signature="ClickOnCrossButton()[pri:9, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:23:49 BDT" name="ClickOnCrossButton" finished-at="2022-10-22T07:24:10 BDT" duration-ms="20498" status="PASS">
+        <test-method signature="ClickOnCrossButton()[pri:9, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:02:55 BDT" name="ClickOnCrossButton" finished-at="2022-11-11T22:03:16 BDT" duration-ms="20537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnCrossButton -->
-        <test-method signature="ClickOnCartIcon()[pri:10, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:24:10 BDT" name="ClickOnCartIcon" finished-at="2022-10-22T07:24:33 BDT" duration-ms="23039" status="PASS">
+        <test-method signature="ClickOnCartIcon()[pri:10, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:03:16 BDT" name="ClickOnCartIcon" finished-at="2022-11-11T22:03:39 BDT" duration-ms="23766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnCartIcon -->
-        <test-method signature="RemoveFirstElement()[pri:11, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:24:33 BDT" name="RemoveFirstElement" finished-at="2022-10-22T07:24:48 BDT" duration-ms="15425" status="PASS">
+        <test-method signature="RemoveFirstElement()[pri:11, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:03:39 BDT" name="RemoveFirstElement" finished-at="2022-11-11T22:03:55 BDT" duration-ms="15471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveFirstElement -->
-        <test-method signature="ConfirmRemoveElementByYes()[pri:12, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:24:48 BDT" name="ConfirmRemoveElementByYes" finished-at="2022-10-22T07:25:07 BDT" duration-ms="18380" status="PASS">
+        <test-method signature="ConfirmRemoveElementByYes()[pri:12, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:03:55 BDT" name="ConfirmRemoveElementByYes" finished-at="2022-11-11T22:04:13 BDT" duration-ms="18523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfirmRemoveElementByYes -->
-        <test-method signature="ClickOnPaceOrderButton()[pri:13, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:25:07 BDT" name="ClickOnPaceOrderButton" finished-at="2022-10-22T07:25:27 BDT" duration-ms="20691" status="PASS">
+        <test-method signature="ClickOnPaceOrderButton()[pri:13, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:04:13 BDT" name="ClickOnPaceOrderButton" finished-at="2022-11-11T22:04:35 BDT" duration-ms="21044" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnPaceOrderButton -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-10-22T07:25:27 BDT" name="afterClass" finished-at="2022-10-22T07:25:28 BDT" duration-ms="579" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.AddToCartTest@62379589]" started-at="2022-11-11T22:04:35 BDT" name="afterClass" finished-at="2022-11-11T22:04:35 BDT" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.AddToCartTest -->
       <class name="tests.WriterAndBookFilterTest">
-        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:19:58 BDT" name="Parent" finished-at="2022-10-22T07:19:58 BDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:58:35 BDT" name="Parent" finished-at="2022-11-11T21:58:36 BDT" duration-ms="948" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Parent -->
-        <test-method signature="Writer()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:19:58 BDT" name="Writer" finished-at="2022-10-22T07:20:05 BDT" duration-ms="7678" status="PASS">
+        <test-method signature="Writer()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:58:36 BDT" name="Writer" finished-at="2022-11-11T21:58:44 BDT" duration-ms="7984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Writer -->
-        <test-method signature="WriterSelected()[pri:1, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:05 BDT" name="WriterSelected" finished-at="2022-10-22T07:20:16 BDT" duration-ms="10480" status="PASS">
+        <test-method signature="WriterSelected()[pri:1, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:58:44 BDT" name="WriterSelected" finished-at="2022-11-11T21:58:57 BDT" duration-ms="12414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WriterSelected -->
-        <test-method signature="BestSellerFilterClick()[pri:2, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:16 BDT" name="BestSellerFilterClick" finished-at="2022-10-22T07:20:26 BDT" duration-ms="10057" status="PASS">
+        <test-method signature="BestSellerFilterClick()[pri:2, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:58:57 BDT" name="BestSellerFilterClick" finished-at="2022-11-11T21:59:10 BDT" duration-ms="12808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BestSellerFilterClick -->
-        <test-method signature="Book_CatagoriesDivScroll()[pri:3, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:26 BDT" name="Book_CatagoriesDivScroll" finished-at="2022-10-22T07:20:33 BDT" duration-ms="7462" status="PASS">
+        <test-method signature="Book_CatagoriesDivScroll()[pri:3, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:59:10 BDT" name="Book_CatagoriesDivScroll" finished-at="2022-11-11T21:59:17 BDT" duration-ms="7702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Book_CatagoriesDivScroll -->
-        <test-method signature="BanglaKobitaCheckBoxClick()[pri:4, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:33 BDT" name="BanglaKobitaCheckBoxClick" finished-at="2022-10-22T07:20:43 BDT" duration-ms="10002" status="PASS">
+        <test-method signature="BanglaKobitaCheckBoxClick()[pri:4, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:59:17 BDT" name="BanglaKobitaCheckBoxClick" finished-at="2022-11-11T21:59:30 BDT" duration-ms="12585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BanglaKobitaCheckBoxClick -->
-        <test-method signature="RochonaSongkolonCheckBoxClick()[pri:5, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:43 BDT" name="RochonaSongkolonCheckBoxClick" finished-at="2022-10-22T07:20:57 BDT" duration-ms="13915" status="PASS">
+        <test-method signature="RochonaSongkolonCheckBoxClick()[pri:5, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:59:30 BDT" name="RochonaSongkolonCheckBoxClick" finished-at="2022-11-11T21:59:46 BDT" duration-ms="15918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RochonaSongkolonCheckBoxClick -->
-        <test-method signature="PublishersDivScroll()[pri:6, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:20:57 BDT" name="PublishersDivScroll" finished-at="2022-10-22T07:21:05 BDT" duration-ms="7375" status="PASS">
+        <test-method signature="PublishersDivScroll()[pri:6, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:59:46 BDT" name="PublishersDivScroll" finished-at="2022-11-11T21:59:53 BDT" duration-ms="7377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PublishersDivScroll -->
-        <test-method signature="ClickOnNazrulCheckBox()[pri:7, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:05 BDT" name="ClickOnNazrulCheckBox" finished-at="2022-10-22T07:21:15 BDT" duration-ms="9890" status="PASS">
+        <test-method signature="ClickOnNazrulCheckBox()[pri:7, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T21:59:53 BDT" name="ClickOnNazrulCheckBox" finished-at="2022-11-11T22:00:05 BDT" duration-ms="11978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnNazrulCheckBox -->
-        <test-method signature="ClickOnAgamiProkashoniCheckBox()[pri:8, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:15 BDT" name="ClickOnAgamiProkashoniCheckBox" finished-at="2022-10-22T07:21:24 BDT" duration-ms="9888" status="PASS">
+        <test-method signature="ClickOnAgamiProkashoniCheckBox()[pri:8, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:00:05 BDT" name="ClickOnAgamiProkashoniCheckBox" finished-at="2022-11-11T22:00:18 BDT" duration-ms="12916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAgamiProkashoniCheckBox -->
-        <test-method signature="ClickOnMawlanaBrothersCheckBox()[pri:9, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:24 BDT" name="ClickOnMawlanaBrothersCheckBox" finished-at="2022-10-22T07:21:34 BDT" duration-ms="9712" status="PASS">
+        <test-method signature="ClickOnMawlanaBrothersCheckBox()[pri:9, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:00:18 BDT" name="ClickOnMawlanaBrothersCheckBox" finished-at="2022-11-11T22:00:30 BDT" duration-ms="11622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnMawlanaBrothersCheckBox -->
-        <test-method signature="BanglaLanguageDivScroll()[pri:10, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:34 BDT" name="BanglaLanguageDivScroll" finished-at="2022-10-22T07:21:42 BDT" duration-ms="7464" status="PASS">
+        <test-method signature="BanglaLanguageDivScroll()[pri:10, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:00:30 BDT" name="BanglaLanguageDivScroll" finished-at="2022-11-11T22:00:37 BDT" duration-ms="7465" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BanglaLanguageDivScroll -->
-        <test-method signature="ClickOnBanglaCheckBox()[pri:11, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:42 BDT" name="ClickOnBanglaCheckBox" finished-at="2022-10-22T07:21:52 BDT" duration-ms="9857" status="PASS">
+        <test-method signature="ClickOnBanglaCheckBox()[pri:11, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:00:37 BDT" name="ClickOnBanglaCheckBox" finished-at="2022-11-11T22:00:49 BDT" duration-ms="11869" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnBanglaCheckBox -->
-        <test-method signature="ClickOnFiveStarRating()[pri:12, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:21:52 BDT" name="ClickOnFiveStarRating" finished-at="2022-10-22T07:22:01 BDT" duration-ms="9538" status="PASS">
+        <test-method signature="ClickOnFiveStarRating()[pri:12, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:00:49 BDT" name="ClickOnFiveStarRating" finished-at="2022-11-11T22:01:00 BDT" duration-ms="11095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnFiveStarRating -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-10-22T07:22:01 BDT" name="afterClass" finished-at="2022-10-22T07:22:01 BDT" duration-ms="347" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.WriterAndBookFilterTest@3754a4bf]" started-at="2022-11-11T22:01:00 BDT" name="afterClass" finished-at="2022-11-11T22:01:01 BDT" duration-ms="568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- tests.WriterAndBookFilterTest -->
       <class name="tests.GmailSignInTest">
-        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:24 BDT" name="Parent" finished-at="2022-10-22T07:19:24 BDT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="Parent()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:57:54 BDT" name="Parent" finished-at="2022-11-11T21:57:54 BDT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Parent -->
-        <test-method signature="GmailUserName()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:24 BDT" name="GmailUserName" finished-at="2022-10-22T07:19:31 BDT" duration-ms="7714" status="PASS">
+        <test-method signature="GmailUserName()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:57:54 BDT" name="GmailUserName" finished-at="2022-11-11T21:58:02 BDT" duration-ms="8395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GmailUserName -->
-        <test-method signature="ClickOnUserNameNextButton()[pri:1, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:31 BDT" name="ClickOnUserNameNextButton" finished-at="2022-10-22T07:19:39 BDT" duration-ms="7509" status="PASS">
+        <test-method signature="ClickOnUserNameNextButton()[pri:1, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:58:02 BDT" name="ClickOnUserNameNextButton" finished-at="2022-11-11T21:58:10 BDT" duration-ms="7794" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnUserNameNextButton -->
-        <test-method signature="GmailPassword()[pri:2, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:39 BDT" name="GmailPassword" finished-at="2022-10-22T07:19:44 BDT" duration-ms="5071" status="PASS">
+        <test-method signature="GmailPassword()[pri:2, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:58:10 BDT" name="GmailPassword" finished-at="2022-11-11T21:58:15 BDT" duration-ms="4803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GmailPassword -->
-        <test-method signature="ClickOnPasswordNextButton()[pri:3, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:44 BDT" name="ClickOnPasswordNextButton" finished-at="2022-10-22T07:19:57 BDT" duration-ms="13313" status="PASS">
+        <test-method signature="ClickOnPasswordNextButton()[pri:3, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:58:15 BDT" name="ClickOnPasswordNextButton" finished-at="2022-11-11T21:58:35 BDT" duration-ms="19686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnPasswordNextButton -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-10-22T07:19:57 BDT" name="afterClass" finished-at="2022-10-22T07:19:58 BDT" duration-ms="395" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tests.GmailSignInTest@13c9d689]" started-at="2022-11-11T21:58:35 BDT" name="afterClass" finished-at="2022-11-11T21:58:35 BDT" duration-ms="872" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
